@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background: #ff0202;
+  background: black;
   padding: 1rem 0 0.5rem 0;
   display: flex;
   flex-direction: column;
@@ -86,14 +86,14 @@ main {
 
 main h1 {
   font-size: 2rem;
-  color: #ff0202;
+  color: black;
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
 }
 
 footer {
-  background: #ff0202;
+  background: black;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
