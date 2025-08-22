@@ -90,6 +90,12 @@ main h1 {
   text-align: center;
 }
 
+main h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 4rem;
+}
+
 footer {
   background: black;
   color: #fff;
@@ -97,4 +103,41 @@ footer {
   padding: 1rem 0;
   font-size: 1rem;
   letter-spacing: 1px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  margin-top: 0.5rem;;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 8px;
+  flex-direction: colum;
+  align-items: center;
+}
+
+
+.menu-list-2 {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.menu-list-2 li a {
+  display:block;
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+  color: #ff0202;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.menu-list-2 li a:hover {
+  background: #ff0202;
+  color: #fff;
+  border-color: #ff0202;
 }
